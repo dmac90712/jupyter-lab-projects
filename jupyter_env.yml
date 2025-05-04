@@ -1,0 +1,26 @@
+name: jupyter_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - notebook
+  - jupyterlab
+  - nbconvert
+  - ipywidgets
+  - matplotlib
+  - pandas
+  - numpy
+  - seaborn
+  - scikit-learn
+  - pip
+  - pip:
+      - traitlets
+      - pyzmq
+      - psutil
+      - prompt_toolkit
+      - tornado
+      - nest_asyncio
+      - jupyter-client
+      - jupyter-core
